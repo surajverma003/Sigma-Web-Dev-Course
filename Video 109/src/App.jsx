@@ -9,7 +9,7 @@ function App() {
 
   useEffect(() => { 
     console.log(`First rendering..`) 
-    btnRef.current.style.backgroundColor = "red"
+    btnRef.current.style.backgroundColor = "red";
   }, []);
   
 
